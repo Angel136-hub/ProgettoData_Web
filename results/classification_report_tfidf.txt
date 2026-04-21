@@ -1,0 +1,11 @@
+CLASSIFICATION REPORT FINALE - MODELLO TF-IDF
+=============================================
+              precision    recall  f1-score   support
+
+         bug       1.00      0.99      0.99     34046
+     feature       0.99      0.99      0.99     23321
+    question       0.95      1.00      0.98      2456
+
+    accuracy                           0.99     59823
+   macro avg       0.98      0.99      0.99     59823
+weighted avg       0.99      0.99      0.99     59823
