@@ -1,0 +1,62 @@
+{
+    "DistilBERT_Embeddings": {
+        "logistic_regression": {
+            "best_params": {
+                "C": 1
+            },
+            "accuracy": 0.8738030584536229,
+            "precision": 0.8742885524661719,
+            "recall": 0.8738030584536229,
+            "f1_score": 0.8737621223006362,
+            "confusion_matrix": [
+                [
+                    6240,
+                    757
+                ],
+                [
+                    1009,
+                    5988
+                ]
+            ]
+        },
+        "decision_tree": {
+            "best_params": {
+                "max_depth": 10
+            },
+            "accuracy": 0.7576818636558525,
+            "precision": 0.7585915396993518,
+            "recall": 0.7576818636558524,
+            "f1_score": 0.7574685687496652,
+            "confusion_matrix": [
+                [
+                    5509,
+                    1488
+                ],
+                [
+                    1903,
+                    5094
+                ]
+            ]
+        },
+        "svm": {
+            "best_params": {
+                "C": 1,
+                "kernel": "linear"
+            },
+            "accuracy": 0.8758753751607832,
+            "precision": 0.8770649108384716,
+            "recall": 0.8758753751607832,
+            "f1_score": 0.8757774031626832,
+            "confusion_matrix": [
+                [
+                    6325,
+                    672
+                ],
+                [
+                    1065,
+                    5932
+                ]
+            ]
+        }
+    }
+}
